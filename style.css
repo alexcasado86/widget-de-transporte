@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E1E1E;
+  font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
+}
+
+#container {
+  display: flex;
+  width: 79.5rem;
+  height: 68.9rem;
+  padding: 2.4rem 5.6rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 9.9rem;
+  border-radius: 40px;
+  background-color: white;
+}
+
+#container .bar {
+  width: 16.8rem;
+  height: 1.7rem;
+  border-radius: 99.9rem;
+  background-color: #E5D8EA;
+}
+
+#container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+#container .content h2 {
+  color: #372D3B;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#container .content h2 span {
+  color: #864293;
+}
+
+#container .content h3 {
+  color: #372D3B;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#container .uber {
+  display: flex;
+  justify-content: space-between;
+  width: 68.3rem;
+  height: 17rem;
+}
+
+#container .uber .car {
+  display: flex;
+  align-items: center;
+  width: 37.8rem;
+  height: 17.29rem;
+}
+
+#container .uber .car .car-image {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container .uber .car .car-image h4 {
+  color: #372D3B;
+  font-size: 1.8rem;
+  font-family: Inter;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+#container .uber .car .car-purple {
+  position: relative;
+  top: 0.5rem;
+  right: 5rem;
+}
+
+#container .uber .car .car-image .car-classification {
+  position: absolute;
+  top: 11rem;
+  display: flex;
+  width: 9.99rem;
+  height: 3.13rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.98rem;
+  border-radius: 1.56rem;
+  background-color: #372D3B;
+}
+
+#container .uber .car .car-image .car-classification span {
+  color: #FBF8FC;
+  font-size: 1.96rem;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+#container .uber .model-plate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container .uber .model-plate h2 {
+  color: #372D3B;
+  font-family: Inter;
+  font-size: 4.1rem;
+  font-weight: 700;
+}
+
+#container .uber .model-plate span {
+  color: #372D3B;
+  font-family: Inter;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+#container .message {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  width: 68.3rem;
+  height: 6.4rem;
+}
+
+#container .message .message-text {
+  width: 51.6rem;
+  height: 6.4rem;
+}
+
+#container .message .message-text form input {
+  width: 51.7rem;
+  height: 6.4rem;
+  padding: 2.3rem 14.2rem 1.8rem 2.9rem;
+  border-radius: 2.4rem;
+  background-color: #F5EDF7;
+  border: 0;
+}
+
+#container .message .message-text form input::placeholder {
+  color: #372D3B;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+#container .message .message-symbol {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+#container .message .message-symbol img {
+  cursor: pointer;
+}
